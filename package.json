@@ -7,7 +7,7 @@
     "frontend:install": "cd angular-ecommerce-app && npm install",
     "frontend:build": "cd angular-ecommerce-app && npm run build",
     "backend:install": "cd storefront-backend && npm install",
-    "backend:build": "cd storefront-backend && npm run build"
+    "backend:build": "cd storefront-backend && npm run build "
   },
   "author": "",
   "license": "ISC"
