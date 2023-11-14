@@ -1,0 +1,14 @@
+{
+  "name": "deployment-process",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "frontend:install": "cd angular-ecommerce-app && npm install",
+    "frontend:build": "cd angular-ecommerce-app && npm run build",
+    "backend:install": "cd storefront-backend && npm install",
+    "backend:build": "cd storefront-backend && npm run build"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,35 @@
+<div class="flex flex-col space-y-5">
+  <h1 class="text-center text-4xl">E-commerce App</h1>
+  <nav>
+    <ul class="flex flex-row space-x-4 items-center justify-center">
+      <li>
+        <a routerLink="/products">
+          <ng-icon name="heroCube"></ng-icon>
+        </a>
+      </li>
+      <li>
+        <a routerLink="/cart">
+          <ng-icon name="heroShoppingCart"></ng-icon>
+        </a>
+      </li>
+      <li>
+        <a routerLink="/success-order">
+          <div class="relative">
+            <div
+              class="absolute right-[3rem] -top-[0.7rem] bg-blue-600 w-5 h-5 flex items-center text-sm justify-center text-white rounded-lg"
+            >
+              {{ total.length }}
+            </div>
+            <ng-icon name="heroCheckBadge"></ng-icon>
+          </div>
+        </a>
+      </li>
+      <!-- Add a link to the shopping cart -->
+    </ul>
+  </nav>
+</div>
+<div class="w-[1200px] mx-auto text-center space-y-6">
+  <router-outlet></router-outlet>
+</div>
+
+<!-- This will display the routed component -->
